@@ -1,5 +1,41 @@
 /* Add CSS styling here */
-
-*{
-    border: 1px solid grey;
+.firstnav{
+    display:flex;
+    justify-content:space-evenly;
+}
+.header{
+    color:green;
+    background-color:grey;
+}
+.intro{
+    display:flex;
+    justify-content:space-evenly;
+}
+.bio{
+    display:flex;
+    flex-wrap: wrap;
+    width:25%;
+    font-family:'helvetica';
+}
+.gallery1{
+    font-family: 'helvetica';
+    color:red;
+    display:flex;
+    justify-content:space-evenly;
+}
+.gallery2{
+    font-family: 'helvetica';
+    color:red;
+    display:flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p {
+    display:flex;
+    justify-content: center;
 }
